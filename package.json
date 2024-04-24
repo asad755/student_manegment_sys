@@ -1,9 +1,10 @@
 {
-  "name": "studenmanagment_proj",
-  "version": "1.0.0",
+  "name": "new_studenmanagment_proj",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "studenmanagment_proj": "^1.0.0"
   }
 }
